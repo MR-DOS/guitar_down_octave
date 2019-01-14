@@ -6,9 +6,11 @@ This is an analog guitar effect which works as octave-down effect. Contrary to a
 ----
 ## Overview
 So, you may want to know how it works. A long time ago, I was experimenting with octave-up effects. Recently, I thought that the principle of octave-up effects can be turned inside-out and a bit expanded to make an octave-down effect. The way most octave-up effects work (the good ones, simple ones only rectify the input waveform which is horrible) is as follows:
+
 ![sin^2(x)=\frac{sin(2x)}{2}+\frac{1}{2}](https://latex.codecogs.com/svg.latex?\large&space;sin^2(x)=\frac{sin(2x)}{2}+\frac{1}{2})
 
 If this function is inverted, you get:
+
 ![\sqrt{\frac{sin(x)}{2}+\frac{1}{2}}=|sin(2x)|](https://latex.codecogs.com/svg.latex?\large&space;\sqrt{\frac{sin(x)}{2}+\frac{1}{2}}=|sin(2x)|)
 
 However, this is not enough to turn sinewave into sinewave of half frequency. You need to remove the absolute value and this is where the analog mojo kicks in.

@@ -11,7 +11,7 @@ So, you may want to know how it works. A long time ago, I was experimenting with
 
 If this function is inverted, you get:
 
-![\sqrt{\frac{sin(x)}{2}+\frac{1}{2}}=|sin(2x)|](https://latex.codecogs.com/svg.latex?\large&space;\sqrt{\frac{sin(x)}{2}+\frac{1}{2}}=|sin(2x)|)
+![\sqrt{\frac{sin(x)}{2}+\frac{1}{2}}=|sin(\frac{x}{2})|](https://latex.codecogs.com/svg.latex?\large&space;\sqrt{\frac{sin(x)}{2}+\frac{1}{2}}=|sin(2x)|)
 
 However, this is not enough to turn sinewave into sinewave of half frequency. You need to remove the absolute value and this is where the analog mojo kicks in.
 If you want more insight, look in the presentation where simulated waveforms can be found. If you are more curious, look into the schematics or simulation.

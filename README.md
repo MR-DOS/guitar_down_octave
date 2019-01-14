@@ -6,10 +6,10 @@ This is an analog guitar effect which works as octave-down effect. Contrary to a
 ----
 ## Overview
 So, you may want to know how it works. A long time ago, I was experimenting with octave-up effects. Recently, I thought that the principle of octave-up effects can be turned inside-out and a bit expanded to make an octave-down effect. The way most octave-up effects work (the good ones, simple ones only rectify the input waveform which is horrible) is as follows:
-![sin^2(x)=\frac{sin(2x)}{2}+\frac{1}{2}](https%3A%2F%2Flatex.codecogs.com%2Fsvg.latex%3F%5Clarge%26space%3Bsin%5E2%28x%29%3D%5Cfrac%7Bsin%282x%29%7D%7B2%7D%26plus%3B%5Cfrac%7B1%7D%7B2%7D)
+![sin^2(x)=\frac{sin(2x)}{2}+\frac{1}{2}](https://latex.codecogs.com/svg.latex?\large&space;sin^2(x)=\frac{sin(2x)}{2}+\frac{1}{2})
 
 If this function is inverted, you get:
-![\sqrt{\frac{sin(x)}{2}+\frac{1}{2}}=|sin(2x)|](https%3A%2F%2Flatex.codecogs.com%2Fsvg.latex%3F%5Clarge%26space%3B%5Csqrt%7B%5Cfrac%7Bsin%28x%29%7D%7B2%7D%26plus%3B%5Cfrac%7B1%7D%7B2%7D%7D%3D%7Csin%282x%29%7C)
+![\sqrt{\frac{sin(x)}{2}+\frac{1}{2}}=|sin(2x)|](https://latex.codecogs.com/svg.latex?\large&space;\sqrt{\frac{sin(x)}{2}+\frac{1}{2}}=|sin(2x)|)
 
 However, this is not enough to turn sinewave into sinewave of half frequency. You need to remove the absolute value and this is where the analog mojo kicks in.
 If you want more insight, look in the presentation where simulated waveforms can be found. If you are more curious, look into the schematics or simulation.

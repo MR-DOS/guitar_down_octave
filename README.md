@@ -47,7 +47,7 @@ Waveforms in the square-root-finder:
 To get rid of the absolute value, there is a synchronous inverter which inverts every second halfperiod of the sinewave. This uses the phasing circuit and 74HC74 to generate half frequency square wave which drives an analog switch which selects either positive or negative halfperiod of the sinewave. There is a simple RC filter to suppress crossover distortion.
 
 Green and light blue line are the noninverted and inverted value, dark blue is the combined waveform:
-![Green and light blue line are the noninverted and inverted value, dark blue is the combined waveform](/relative/inverter.png)
+![Green and light blue line are the noninverted and inverted value, dark blue is the combined waveform](/images/inverter.png)
 
 ### AGC
 To compensate for amplitude error due to the square-root, there is an AGC which uses Gilbert cells. Each square-root-finder is preceded by the Gilbert cell (there are 2), one has the sine wave as input, the second one gets the DC value of amplitude. The AGC tries to get the input and output amplitude the same.
@@ -69,10 +69,10 @@ Image of FFT in simulation:
 ----
 ## Images of the board
 Top view:
-![Top view](/kicad_outputs/top.png)
+![Top view](/kicad_outputs/3D/top.png)
 
 Bottom view:
-![Top view](/kicad_outputs/bottom.png)
+![Top view](/kicad_outputs/3D/bottom.png)
 
 Top view, drilled and with vias in place:
 ![Top view, drilled and with vias in place](/images/top.jpg)
